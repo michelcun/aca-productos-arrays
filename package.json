@@ -1,18 +1,11 @@
 {
-  "name": "crud-pedidos-restaurante",
+  "name": "aca-productos-arrays",
   "version": "1.0.0",
-  "description": "Base Node.js + Express + SQLite para CRUD de pedidos de restaurante",
-  "main": "src/server.js",
+  "description": "Operaciones con arrays de productos (ACA)",
+  "main": "server.js",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "node --watch src/server.js"
+    "start": "node server.js",
+    "dev": "node --watch server.js"
   },
-  "keywords": ["express", "sqlite", "ejs", "pedidos", "restaurante"],
-  "license": "MIT",
-  "dependencies": {
-    "better-sqlite3": "^11.8.1",
-    "dotenv": "^16.4.7",
-    "ejs": "^3.1.10",
-    "express": "^4.21.2"
-  }
+  "license": "MIT"
 }
